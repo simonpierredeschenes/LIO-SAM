@@ -25,6 +25,7 @@ find_package(OpenMP REQUIRED)
 find_package(PCL REQUIRED QUIET)
 find_package(OpenCV REQUIRED QUIET)
 find_package(GTSAM REQUIRED QUIET)
+find_package(Boost COMPONENTS timer REQUIRED)
 
 add_message_files(
   DIRECTORY msg
